@@ -28,14 +28,12 @@ class Service {
         let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
             if let data = data {
                 do {
-                    let res = try JSONDecoder().decode(UserGit.self, from: data)
+                    let json = try JSONDecoder().decode(UserGit.self, from: data)
                     DispatchQueue.main.async {
-                        completion(.success(res))
+                        completion(.success(json))
                     }
-                    print(#function)
-                    print(res.login)
-                    print(res.followers)
-                    print(res.bio)
+                    print("SUCCESS")
+
                 } catch {
                     print(error.localizedDescription)
                 }

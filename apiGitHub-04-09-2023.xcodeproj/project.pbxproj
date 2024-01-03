@@ -68,11 +68,11 @@
 				2A7A5B6F2AA6C5F600EC5924 /* AppDelegate.swift */,
 				2A7A5B712AA6C5F600EC5924 /* SceneDelegate.swift */,
 				2A7A5B732AA6C5F600EC5924 /* ViewController.swift */,
+				2A7A5B832AA6D6C000EC5924 /* Service.swift */,
 				2A7A5B752AA6C5F600EC5924 /* Main.storyboard */,
 				2A7A5B782AA6C5F900EC5924 /* Assets.xcassets */,
 				2A7A5B7A2AA6C5F900EC5924 /* LaunchScreen.storyboard */,
 				2A7A5B7D2AA6C5F900EC5924 /* Info.plist */,
-				2A7A5B832AA6D6C000EC5924 /* Service.swift */,
 			);
 			path = "apiGitHub-04-09-2023";
 			sourceTree = "<group>";
@@ -83,7 +83,6 @@
 				811874FC0415F50E053FFEAD /* Pods-apiGitHub-04-09-2023.debug.xcconfig */,
 				3B0D7F39C588D51FCD11DC9C /* Pods-apiGitHub-04-09-2023.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
